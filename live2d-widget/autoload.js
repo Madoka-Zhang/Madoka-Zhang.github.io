@@ -33,9 +33,9 @@ if (screen.width >= 768) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: " https://madoka-zhang.github.io/live2d-widget/live2d_api/"
+			// apiPath: " https://madoka-zhang.github.io/live2d-widget/live2d_api/"
 			// apiPath: "https://live2d.fghrsh.net/api/",
-			//cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 		});
 	});
 }
