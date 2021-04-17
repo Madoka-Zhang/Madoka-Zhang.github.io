@@ -3,7 +3,8 @@
   <entry>
     <title>k210裸机调试</title>
     <url>/post/cfb650ba/</url>
-    <content><![CDATA[<h1 id="openocd"><a href="#openocd" class="headerlink" title="openocd"></a>openocd</h1>]]></content>
+    <content><![CDATA[<h1 id="openocd"><a href="#openocd" class="headerlink" title="openocd"></a>openocd</h1><p>今天看了好久还是一直报错，太难了</p>
+]]></content>
       <categories>
         <category>操作系统</category>
       </categories>
@@ -41,9 +42,9 @@
     <url>/post/c1cf2866/</url>
     <content><![CDATA[<h1 id="标日初级"><a href="#标日初级" class="headerlink" title="标日初级"></a>标日初级</h1><img src="/post/c1cf2866/image-20210416230741563.png" alt="image-20210416230741563" style="zoom:80%;">
 
-<h2 id="第1課-李さんは-中国人です"><a href="#第1課-李さんは-中国人です" class="headerlink" title="第1課　李さんは　中国人です"></a>第1課　李さんは　中国人です</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><span id="more"></span>
+<h2 id="第1課-李さんは-中国人です"><a href="#第1課-李さんは-中国人です" class="headerlink" title="第1課　李さんは　中国人です"></a>第1課　李さんは　中国人です</h2><span id="more"></span>
 
-<ol>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><ol>
 <li><p>名 は　名　です</p>
 <p><del>是</del>。 は读作わ。</p>
 </li>
@@ -88,7 +89,82 @@
 <li><p>会社員　　社員</p>
 </li>
 </ol>
-<h3 id="生词"><a href="#生词" class="headerlink" title="生词"></a>生词</h3>]]></content>
+<h3 id="生词"><a href="#生词" class="headerlink" title="生词"></a>生词</h3><h2 id="第2課-これは-本です"><a href="#第2課-これは-本です" class="headerlink" title="第2課　これは　本です"></a>第2課　これは　本です</h2><h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><ol>
+<li><p>これ／それ／あれ　は　名　です</p>
+<p>根据远近不同从左到右从近到远</p>
+</li>
+<li><p>だれですか／何ですか</p>
+<p>人用誰（だれ）、物用何（なん）</p>
+<p>长辈–&gt;どなた</p>
+</li>
+<li><p>名　の　名</p>
+<p>表示所属</p>
+</li>
+<li><p>この／その／あの　名は　名です</p>
+<p>表示从属关系</p>
+</li>
+<li><p>どれ／どの</p>
+<p>三个以上不确定是哪一个的疑问词</p>
+</li>
+</ol>
+<hr>
+<ul>
+<li><p>数字</p>
+<p>れい／ぜろ　いち　に　さん　し／よん　ご　ろく　しち／なな　はち　く／きゅう　じゅう</p>
+<p>0　ーー＞　10</p>
+</li>
+</ul>
+<h3 id="表达和词语-1"><a href="#表达和词语-1" class="headerlink" title="表达和词语"></a>表达和词语</h3><ol>
+<li><p>方（かた）</p>
+<p>替代人（ひと）更礼貌</p>
+</li>
+<li><p>询问年龄</p>
+<p>何歳ですか（なんさい）</p>
+<p>おいくつですか</p>
+<p>孩子： いくつ？　何歳？</p>
+</li>
+<li><p>どうぞ</p>
+</li>
+<li><p>叹词</p>
+<ol>
+<li>えっ</li>
+<li>わあ</li>
+</ol>
+</li>
+<li><p>はい　ええ</p>
+<p>后者是随便的说法，应答别人是用前者</p>
+</li>
+<li><p>外来词（がいらいご　　外来語）</p>
+<p>かんご　　漢語</p>
+</li>
+<li><p>どうも　ありがどう　ございます</p>
+</li>
+</ol>
+<h3 id="生词-1"><a href="#生词-1" class="headerlink" title="生词"></a>生词</h3><ul>
+<li>ノート　笔记本，本子</li>
+<li>鉛筆　えんぴつ</li>
+<li>傘　かさ</li>
+<li>靴　くつ</li>
+<li>パソコン　个人电脑</li>
+<li>机　つくえ　桌子，书桌</li>
+<li>かぎ　钥匙，锁</li>
+<li>手帳　でちょう　记事本</li>
+<li>車　くるま</li>
+<li>自転車　じてんしゃ</li>
+<li>お土産　おみやげ　礼物</li>
+<li>名産品　めいさんひん　特产</li>
+<li>シルク　丝绸</li>
+<li>ハンカチ　手绢</li>
+<li>長島　ながしま</li>
+<li>スワトウ　汕头</li>
+<li>ロンドン　伦敦</li>
+<li>ありがとうございます</li>
+<li>おいくつ　多大<ul>
+<li>何〜／〜歳</li>
+</ul>
+</li>
+</ul>
+]]></content>
       <categories>
         <category>学习记录</category>
       </categories>
