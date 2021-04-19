@@ -313,6 +313,65 @@
 <li>marsh  沼泽，湿地</li>
 <li>parton  资助人，赞助人；老主顾，顾客</li>
 </ul>
+<h2 id="List-4-–-4-19"><a href="#List-4-–-4-19" class="headerlink" title="List 4 – 4.19"></a>List 4 – 4.19</h2><ul>
+<li>dub 给……起绰号；为配音；</li>
+<li>relentless 不停的；持续强烈的；不减弱的；无情的</li>
+<li>fiscal 财政的，国库的</li>
+<li>maritime 海的，海事的</li>
+<li>tournament 比赛，锦标赛</li>
+<li>dazzle 耀眼的光  vt. 使目眩</li>
+<li>flirt 调情</li>
+<li>relic 遗物，遗迹</li>
+<li>tranquil  安静的，平静的</li>
+<li>advent 出现，来临，到来</li>
+<li>martyr 烈士</li>
+<li>outfit 全套服装</li>
+<li>beak 鸟喙</li>
+<li>heel  脚后跟</li>
+<li>chamber 洞穴，房间</li>
+<li>dispatch 急件，快信</li>
+<li>foe 敌人</li>
+<li>flutter 紧张，激动不安  vt. 排翅而飞</li>
+<li>rash n. 皮疹  adj. 轻率的，鲁莽的</li>
+<li>stitch 一针，缝法，针法</li>
+<li>reminiscent 回忆往事的</li>
+<li>adversary  对手，敌手</li>
+<li>corpse  死尸，尸体</li>
+<li>maternal  母亲的</li>
+<li>curtail 缩短；消减（经费等）；剥夺</li>
+<li>chancellor 名誉校长</li>
+<li>aspiration 强烈的愿望，志向，抱负</li>
+<li>toll 过路费；伤亡人数  v. 敲钟</li>
+<li>correlate 使相互关联</li>
+<li>sip n.一小口的量 v. 小口的喝</li>
+<li>religious 宗教的</li>
+<li>drain 耗竭；排水沟</li>
+<li>entrepreneur 企业家</li>
+<li>assault 攻击，袭击</li>
+<li>strand 股，缕；一个组成部分</li>
+<li>strategy 战略，策略</li>
+<li>financial 财政的，金融的</li>
+<li>denounce  谴责，指责；搞发</li>
+<li>Catholic 天主教徒  天主教的</li>
+<li>streak 条纹，条痕；个性特征；一阵子</li>
+<li>preliminary  初步做法  adj  预备的，初步的</li>
+<li>property  财产，所有物；房产，物业；性质；性能</li>
+<li>maneuver 谨慎而熟练的动作；策略，花招  [pl.]演习</li>
+<li>alleviate 减轻，缓解，缓和</li>
+<li>physiological 生理的</li>
+<li>facet 一个方面</li>
+<li>stride 大步；步法；步态</li>
+<li>apparatus 器械，器具，仪器</li>
+<li>rival 竞争对手，敌手；可与匹敌的人</li>
+<li>deduce 推论，推断，演绎</li>
+<li>critic 批评家</li>
+<li>levy 征税</li>
+<li>disposition  性情，性格；意向，倾向</li>
+<li>scheme 计划，方案</li>
+<li>periodical 期刊</li>
+<li>condemn 谴责，指责；判……刑</li>
+<li>encounter 遭遇 遇到</li>
+</ul>
 ]]></content>
       <categories>
         <category>学习记录</category>
@@ -320,6 +379,95 @@
       <tags>
         <tag>语言</tag>
         <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dynamic Programming</title>
+    <url>/post/71b19194/</url>
+    <content><![CDATA[<h1 id="Dynamic-Programming"><a href="#Dynamic-Programming" class="headerlink" title="Dynamic Programming"></a>Dynamic Programming</h1><blockquote>
+<p>前世之不忘，后事之师</p>
+<pre><code>                   ————汉 刘向
+</code></pre>
+</blockquote>
+<span id="more"></span>
+
+<h3 id="How-to-design-a-DP-method"><a href="#How-to-design-a-DP-method" class="headerlink" title="How to design a DP method"></a>How to design a DP method</h3><ul>
+<li>Characterize an optimal solution</li>
+<li>recursively define the optimal values</li>
+<li>compute the values in some order</li>
+<li>reconstruct the sloving strategy</li>
+</ul>
+<p>最重要：</p>
+<ul>
+<li>optimal substructure</li>
+<li>overlapping sub-problems</li>
+</ul>
+<hr>
+<ul>
+<li>recursion 递归<ul>
+<li>怎样去找递归间的一个想法</li>
+</ul>
+</li>
+<li>记忆化</li>
+<li>DP<ul>
+<li>递归</li>
+<li>子问题，不要重复计算</li>
+<li>记忆化</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="Memorization"><a href="#Memorization" class="headerlink" title="Memorization"></a>Memorization</h3><ul>
+<li>存储已经算过的子问题的解值</li>
+<li>记忆化，自上而下</li>
+<li>tabulation ： 迭代构造子问题的解构造一个表</li>
+</ul>
+<hr>
+<ul>
+<li>记忆化更好写</li>
+<li>记忆化可能会慢于table</li>
+<li>记忆化用栈可能会占用很大</li>
+<li>table，smart remember subproblems</li>
+</ul>
+<p><strong>某种意义上讲，动态规划就是没有重复的递归</strong></p>
+<h4 id="Matrix-multiplication"><a href="#Matrix-multiplication" class="headerlink" title="Matrix multiplication"></a>Matrix multiplication</h4><ul>
+<li><p>n-by-n matrices X and Y</p>
+<p>$Z_{ij}\ =\ \sum\limits_{k=1}^{n}X_{ik}Y_{kj}$</p>
+<p>直接运算$O(N^3)$</p>
+</li>
+<li><p><strong>ordering matrix multiplication</strong></p>
+<p>$M_{1[10\times20]}*M_{2[20\times50]}*M_{3[50\times1]}*M_{4[1\times100]}$</p>
+<p>从右向左算，$50 \times 1 \times 100 + 20\times50\times100+10\times20\times100 = 125000$</p>
+<p>先算中间再左再右，$20\times50\times1+10\times20\times1+10\times1\times100=2200$</p>
+<p>问题就是如何找到最小的时间的一个order</p>
+</li>
+<li><p>使用$b_n = $number\ of\ different ways to compute $M_1<em>M_2</em>……*M_n$</p>
+<p>上述$b_2=1,b_3=2,b_4=5$</p>
+<p>$M_{ij}=M_i….M_j \ \ \ Then M_{1n}=M_1….M_n=M_{1i}*M_{i-1\ n}$</p>
+<p>$b_n=\sum\limits_{i=1}^{n-1}b_ib_{n-i}$ where n&gt;1 and b<sub>1</sub>=1</p>
+<p>$b_n=O(4^n/n\sqrt n)$</p>
+<p>suppose $M_i$ is an $r_{i-1}\times r_i$ matrix</p>
+<p>let $m_{ij}$  作为从i到j最有的计算路径<br>$$<br>m_{ij}=</p>
+<pre><code>\begin&#123;cases&#125;
+    0, &amp; \text&#123;if $i = j$&#125;\\
+    \min\limits_&#123;i\leq l&lt;j&#125;&#123;m_&#123;il&#125;+m_&#123;l+1\ j&#125;+r_&#123;i-1&#125;r_lr_j&#125;, &amp; \text&#123;if $j&gt;i$&#125;
+\end&#123;cases&#125;
+</code></pre>
+<p>$$</p>
+</li>
+<li><p>$T(N)=O(N^3)$</p>
+</li>
+<li></li>
+</ul>
+<hr>
+<p>未完待续</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
 </search>
